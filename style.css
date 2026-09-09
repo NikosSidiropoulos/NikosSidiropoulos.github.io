@@ -67,6 +67,23 @@ body {
 	max-width: 840px;
 }
 
+a.skip-link {
+	position: absolute;
+	top: -3em;
+	left: 0.5em;
+	z-index: 10;
+	background: var(--accent);
+	color: #ffffff;
+	padding: 0.5em 1em;
+	border-radius: 6px;
+	transition: top 0.15s ease;
+}
+
+a.skip-link:focus {
+	top: 0.5em;
+	border-bottom: none;
+}
+
 div.menu-category {
 	font-weight: 600;
 	font-size: 1.05em;
